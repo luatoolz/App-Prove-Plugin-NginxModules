@@ -1,9 +1,7 @@
 package App::Prove::Plugin::NginxModules;
 {
-  $App::Prove::Plugin::NginxModules::VERSION = '0.001';
+  $App::Prove::Plugin::NginxModules::VERSION = '1.0.0';
 }
-
-# ABSTRACT: App::Prove plugin to auto load nginx modules
 
 use strict;
 use warnings;
