@@ -13,6 +13,10 @@ You may cpecify modules list (any format accepted):
 ```bash
 cpanm https://github.com/luatoolz/App-Prove-Plugin-NginxModules.git
 ```
+or
+```bash
+cpanm https://github.com/luatoolz/App-Prove-Plugin-NginxModules/releases/download/v1.0.0/NginxModules-1.0.0.tar.gz
+```
 
 ## build
 ```bash
