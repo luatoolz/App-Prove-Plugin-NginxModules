@@ -29,7 +29,6 @@ sub load {
   my @args = @{$p->{args}};
   unshift @args, 'ngx_http_lua_module' if !scalar(@args);
   $ENV{TEST_NGINX_LOAD_MODULES} = ngx_load_modules(@args);
-  $ENV{'TEST_NGINX_LOAD_MODULES'} = ngx_load_modules(@args);
 }
 
 1;
