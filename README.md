@@ -2,6 +2,8 @@
 Designed to work with `nginx` + `lua` module without `openresty`.
 Extracts and uses `--modules-path` compile options from `nginx`.
 
+To use with `Test::Nginx::Socket::Lua`.
+
 ## usage
 - `prove -PNginxModules t`: loads `ndk_http_module` (always added) and `ngx_http_lua_module` by default
 
